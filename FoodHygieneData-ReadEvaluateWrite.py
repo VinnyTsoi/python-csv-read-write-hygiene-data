@@ -27,6 +27,3 @@ with open('foodhygienedata.csv','r') as file:
                 newDict['inspectiondate'] = inspectiondate
                 newDict['dayssinceinspection'] = delta.days
                 writer.writerow(newDict)
-            
-            
-        
